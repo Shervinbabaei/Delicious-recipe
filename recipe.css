@@ -1,0 +1,108 @@
+/* Reset and basic styles */
+body {
+    background-color: #ffffbf;
+    color: #333;
+    font-family: "Arial", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Add this CSS for vibrant h1 headings */
+/* Modify the CSS for the h1 heading */
+h1 {
+    background-color: #bdaf60; /* Yellow-ish background color */
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    color: #1a6385;
+    font-size: 36px;
+    margin-bottom: 20px;
+    padding: 10px;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+
+/* Links */
+a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Additional enhancements */
+/* Accessibility: Ensure your webpage is accessible to all users. Use appropriate contrast ratios, provide alternative text for images, and test your webpage with screen readers to make it accessible. */
+/* Consistent Borders and Shadows: Maintain consistency in border widths, colors, and box shadows. This gives your webpage a polished and professional appearance. */
+/* Consistent Naming: Maintain a consistent naming convention for your CSS classes and IDs. This helps you and others understand the purpose of each style rule. */
+/* Headings */
+h2,
+h3 {
+    color: #e74c3c;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Image Container */
+.image-container {
+    border: 4px solid #ddd;
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+    display: block;
+    height: auto;
+    margin: 20px auto;
+    max-width: 600px;
+    overflow: hidden;
+    position: relative;
+}
+
+.image-container img {
+    border-radius: 15px;
+    display: block;
+    height: auto;
+    max-width: 100%;
+    transition: transform 0.3s ease;
+}
+
+.image-container img:hover {
+    transform: scale(1.1);
+}
+
+/* Additional styling for h3 elements inside the body */
+body h3 {
+    background-color: #fff;
+    border: 2px solid #d35400;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    color: #e67e22;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+    padding: 10px 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/* Recipe Ingredients List */
+.recipe-ingredients {
+    list-style: none;
+    padding: 0;
+}
+
+.recipe-ingredients li {
+    color: #444;
+    font-size: 18px;
+    line-height: 1.4;
+    margin: 10px 0;
+}
+
+/* Section Titles */
+.section-title {
+    background-color: #3498db;
+    border: 2px solid #2980b9;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    color: #fff;
+    margin-top: 20px;
+    padding: 15px;
+}
